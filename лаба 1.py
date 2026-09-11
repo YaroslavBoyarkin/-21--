@@ -5,7 +5,7 @@ print ('Hello World')
 #типи данних і змінні
 
 number = 25                #ціле число
-decimal = 6.28             #дробове число
+float = 6.28               #дробове число
 text = "Солдат"            #рядок
 status = False             #логічне значення
 numbers = [2, 4, 6, 8, 10] #список
@@ -13,16 +13,15 @@ numbers = [2, 4, 6, 8, 10] #список
 #виведення значень іх типів
 
 print(number, type(number))
-print(decimal, type(decimal))
+print(float, type(float))
 print(text, type(text))
 print(status, type(status))
 print(numbers, type(numbers))
 
 #оператори
 
-#створюємо два числа
 x = 8
-y = 5
+y = 4
 
 #арифметика(+, -, *, /, %, **, //)
 
