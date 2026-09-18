@@ -31,8 +31,8 @@ vvedenyy_pass = input('Введіть пароль')
 #виведення правильних та неправильних данних
 if vvedenyy_login == login_maks and vvedenyy_pass == pass_maks:
     print('Вхід успішний! ВІТАЄМО, maks11.') #виведення вітання користувачу якщо вхід успішний
-    print(f'Твої задовільні оцінки: {maks_nezadovilno}. Кількість: {len(maks_zadovilno)}')
-    print(f'Твої незадовільні оцінки: {maks_nezadovilno}. Кількість: {len(maks_zadovilno)}')
+    print(f'Твої задовільні оцінки: {maks_zadovilno}. Кількість: {len(maks_zadovilno)}')
+    print(f'Твої незадовільні оцінки: {maks_nezadovilno}. Кількість: {len(maks_nezadovilno)}')
 
 
 elif vvedenyy_login == login_oleg and vvedenyy_pass == pass_oleg:
